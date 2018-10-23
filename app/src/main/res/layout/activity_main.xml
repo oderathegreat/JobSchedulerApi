@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+
+    <Button
+        android:id="@+id/btnSchedule"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#3faadf"
+        android:textColor="#FFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="172dp"
+        android:text="Schelue Job" />
+
+    <Button
+        android:id="@+id/btnPauseSchedule"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/btnSchedule"
+        android:layout_centerVertical="true"
+        android:background="#21de7f"
+        android:text="Pose Scheduler"
+        android:textColor="#FFF" />
+</RelativeLayout>
